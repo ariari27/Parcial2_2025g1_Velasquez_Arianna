@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CoderHub.run</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" type="image/png" href="IMG/LogoBW.png">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body class="bg-dark">
+
+    <header><!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darkness">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="./IMG/LogoBW.png" alt="Logo CoderHub" width="140px" height="auto" class="me-2">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link nav-shadow" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link nav-shadow" href="about.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link nav-shadow" href="services.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link nav-shadow" href="projects.html">Portafolio</a></li>
+                        <li class="nav-item"><a class="nav-link nav-shadow" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main><!-- Sección de Contacto -->
+        <section class="bg-dark text-white py-5">
+            <div class="container">
+                <h1 class="text-center text-warning mb-5">Contáctanos</h1>
+
+                <div class="row">
+                    <!-- Formulario -->
+                    <div class="col-md-6">
+                        <form action="https://formspree.io/f/myzdqjer" method="post" class="bg-secondary p-4 rounded"
+                            id="contactForm">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" name="correo" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label">Asunto</label>
+                                <input type="text" class="form-control" id="asunto" name="asunto" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-warning w-100">Enviar</button>
+                        </form>
+                    </div>
+
+                    <!-- Mapa -->
+                    <div class="col-md-6 mt-4 mt-md-0">
+                        <div class="ratio ratio-4x3">
+                            <iframe
+                                src="https://maps.google.com/maps?q=Florencia,%20Caquetá&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-4 mt-5 justify-content-center">
+        <p>Contacto: info@coderhub.run | Tel: +57 300 000 0000</p>
+        <div>
+            <a href="https://www.facebook.com" class="text-white me-3">Facebook</a>
+            <a href="https://www.twitter.com" class="text-white me-3">Twitter</a>
+            <a href="https://www.instagram.com" class="text-white">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

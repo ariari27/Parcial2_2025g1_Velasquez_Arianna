@@ -1,0 +1,60 @@
+.nav-shadow {
+    color: white !important;
+    text-shadow: 1px 1px 2px #ff751f;
+    font-weight: bold;
+}
+
+.nav-shadow:hover {
+    text-shadow: 2px 2px 2px #ff751f;
+}
+
+.text-warning {
+    text-shadow: 2px 2px 2px black;
+    color: #ff751f !important;
+}
+
+.btn-warning {
+    background-color: #ff751f;
+    border-color: #ff751f;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-warning:hover {
+    border-color: #ff751f;
+    background-color: rgb(255, 255, 255) !important;
+    color: #ff751f !important;
+}
+
+.banner-img {
+    max-height: 300px;
+    width: auto;
+    object-fit: contain;
+}
+
+.bgOrange {
+    background-color: rgb(255, 255, 255) !important;
+    color: #ff751f !important;
+    border-color: #ff751f;
+}
+
+.card-img-top {
+    padding-top: 0.5rem;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.bg-darkness {
+    background-color: #1a1a1a !important;
+}
+
+.bg-secondary {
+    background-color: #ffffff93 !important;
+}
